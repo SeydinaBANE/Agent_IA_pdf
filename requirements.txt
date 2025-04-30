@@ -1,19 +1,23 @@
-# Core libraries
-torch>=2.0
-transformers>=4.38
+# 📦 Librairies principales pour le deep learning
+torch>=2.0                      # Moteur de calcul (PyTorch)
+transformers>=4.38             # Modèles pré-entraînés de Hugging Face
 
-# Tokenization support (SentencePiece + Fast tokenizers)
-sentencepiece
-tokenizers
+# ✂️ Support des tokenizers (tokenisation de texte)
+sentencepiece                  # Utilisé par CamemBERT, MarianMT, etc.
+tokenizers                     # Tokenizers rapides (en Rust)
 
-# Optional: for progress bars in notebooks
-tqdm
-ipywidgets
+# 🔁 Affichage de la progression dans les notebooks
+tqdm                           # Barres de chargement
+ipywidgets                     # Widgets interactifs dans Jupyter
 
-# For Jupyter Notebook interface
-jupyter
+# 📓 Interface de notebook Jupyter
+jupyter                        # Pour exécuter des notebooks .ipynb
 
-# Support for specific tokenizer models like Tiktoken (rarement utile ici mais préventif)
-tiktoken
-PyMuPDF
- gradio 
+# 🔐 (Optionnel) Tokenizer OpenAI-like (peu utile ici mais préventif)
+tiktoken                       # Tokenisation OpenAI (si jamais nécessaire)
+
+# 📄 Lecture de documents PDF
+PyMuPDF                        # Pour lire et extraire du texte depuis un fichier PDF
+
+# 🌐 Interface web interactive
+gradio                         # Pour créer une interface dans le navigateur
