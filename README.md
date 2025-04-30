@@ -27,7 +27,7 @@ Chargez un fichier PDF en français.
 
 ## 📦 Modèle utilisé
 
-Nom : etalab-ia/camembert-base-squadFR-fquad-piaf
-Base : CamemBERT
-Sources d'entraînement : SQuAD v1, FQuAD, PIAF (QA francophones)
+- Nom : etalab-ia/camembert-base-squadFR-fquad-piaf
+- Base : CamemBERT
+- Sources d'entraînement : SQuAD v1, FQuAD, PIAF (QA francophones)
 
