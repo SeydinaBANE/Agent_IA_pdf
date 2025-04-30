@@ -17,13 +17,13 @@ Ce projet utilise le modèle **CamemBERT** finement ajusté sur des données QA 
 ## 🧠 Exemple d'utilisation
 
 Chargez un fichier PDF en français.
-Posez une question comme :
-"Quel est l'impact du plastique sur l’environnement ?"
-L'application retourne :
-La meilleure réponse
-Le score de confiance
-Les extraits complets utilisés
-Un fichier .txt téléchargeable avec les extraits
+- Posez une question comme :
+- "Quel est l'impact du plastique sur l’environnement ?"
+- L'application retourne :
+-La meilleure réponse
+- Le score de confiance
+- Les extraits complets utilisés
+- Un fichier .txt téléchargeable avec les extraits
 
 ## 📦 Modèle utilisé
 
