@@ -1,4 +1,4 @@
-import fitz  # PyMuPDF
+import fitz  
 import gradio as gr
 from transformers import pipeline
 from typing import List
